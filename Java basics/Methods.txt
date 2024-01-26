@@ -1,0 +1,21 @@
+class Methods{
+	void method1(){
+		System.out.println("method called successfully");
+	}
+	
+	static void method2(){
+		System.out.println("static method called successfully");
+	}
+	
+	public void method3(){
+		System.out.println("public method called successfully");
+	}
+	
+	public static void main(String args[]){
+		method1();
+		method2();
+		
+		Methods obj1 = new Methods();
+		obj1.method3();
+	}
+}	
