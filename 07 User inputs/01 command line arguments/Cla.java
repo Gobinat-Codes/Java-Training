@@ -1,10 +1,10 @@
 public class Cla{
 	public static void main(String[] args){
-		if(args.length > 0){
-		int age = Integer.parseInt(args[1]);
+		
+		int age = Integer.parseInt(args[0]);
 		System.out.println("Age is : " + age);
 		
-		String name = args[2];
+		String name = args[1];
 		System.out.println("Name is : " + name);
 		
 		
@@ -14,7 +14,7 @@ public class Cla{
 		else{
 			System.out.println(name + " Not eligible to vote");
 		}
-		}
+		
 	}
 }
 
