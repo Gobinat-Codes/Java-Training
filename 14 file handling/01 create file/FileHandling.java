@@ -3,7 +3,7 @@ import java.util.*; // for Scanner
 public class FileHandling{
 	public static void main(String[] args) {
 		try{
-		File file = new File("file1.txt");
+		File file = new File("D:\\Java Training\\14 file handling\\demo\\file27.txt");
 		Scanner sc = new Scanner(file);
 		while(sc.hasNextLine()){
 			System.out.println(sc.nextLine());
