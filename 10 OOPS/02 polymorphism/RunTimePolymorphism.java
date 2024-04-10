@@ -3,7 +3,7 @@ class Fruits {
 		 void printHello(){
 			System.out.println("Banana");
 		}
-		g
+		
 	}
 
 public class RunTimePolymorphism extends Fruits{
